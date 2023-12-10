@@ -39,13 +39,13 @@ public class UserController {
         lst.add("test1");
         lst.add("test2");
         lst.add("test3");
+        lst.add("test4");
         return lst;
     }
 
     @PostMapping("/sendFcm")
     public void sendFcm(){
-        log.info("sendFcm 정상 수신");
-        log.info("sendFcm 정상 수신");
+        log.info("sendFcm 정상 수신3");
 
         fcmService.sendFcm();
     }
