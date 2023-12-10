@@ -17,7 +17,8 @@ permissions:
   contents: read
 
 jobs:
-  build:
+#  build:
+  build-docker-image:
 
     runs-on: ubuntu-latest
 
