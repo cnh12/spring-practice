@@ -41,6 +41,7 @@ public class UserController {
         lst.add("test3");
         lst.add("test4");
         lst.add("test5");
+        lst.add("test6");
         return lst;
     }
 
