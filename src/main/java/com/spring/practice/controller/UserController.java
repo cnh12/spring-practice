@@ -45,6 +45,7 @@ public class UserController {
     @PostMapping("/sendFcm")
     public void sendFcm(){
         log.info("sendFcm 정상 수신");
+        log.info("sendFcm 정상 수신");
         fcmService.sendFcm();
     }
 
