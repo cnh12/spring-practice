@@ -69,8 +69,10 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USERNAME }}
 #          username: fakeusername
-          key: ${{ secrets.SERVER_PRIVATE_KEY  }}
-          port: 8080
+#          key: ${{ secrets.SERVER_PRIVATE_KEY  }}
+          envs: GITHUB_SHA
+          port: 22
+
 
       # 1. 최신 이미지를 풀받습니다
       - name: docker pull
