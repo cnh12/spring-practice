@@ -38,6 +38,8 @@ public class UserController {
         List<String> lst = new ArrayList<>();
         lst.add("test1");
         lst.add("test2");
+        lst.add("test3");
+        lst.add("test4");
 
         return lst;
     }
