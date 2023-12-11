@@ -70,7 +70,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
 #          username: fakeusername
           key: ${{ secrets.SERVER_PRIVATE_KEY  }}
-          port: 22
+          port: 8080
 
       # 1. 최신 이미지를 풀받습니다
       - name: docker pull
